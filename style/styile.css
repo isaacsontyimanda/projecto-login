@@ -2,11 +2,54 @@
 
 /*
 paleta de cores
-azul: #00aeef
-verde: #4fe891
+verde: #49a09d
+lilás: #5f2c82
 branco: #edf7f2
 */
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    transition: width .4s, heigth .4s;
+    transition-timing-function: ease;
+}
+
+section#login > div#img {
+    display: block;
+    background: #5f2c82 url('../imgs/espaco.jpg') no-repeat center center;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login >div#form {
+    display: block;
+    padding: 10px;
+}
+
