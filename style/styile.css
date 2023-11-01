@@ -66,8 +66,40 @@ div#form > p {
 form > div.campo {
     background-color: #5f2c82;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+form > div.campo2 {
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+.login-senha {
+    display: inline;
+    color: #edf7f2;
+    font-weight: bold;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #6bf1ed;
+    font-size: 1em;
+    width: calc(200% - 127.4%);
+    height: 100%;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+div.campo2 > input {
+    background-color: #6bf1ed;
+    font-size: 1em;
+    width: calc(200% - 126.3%);
+    height: 100%;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 input[type=submit] {
