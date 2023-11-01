@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon:family=Material+icons" rel="stylesheet">
     <link rel="stylesheet" href="style/styile.css">
     <link rel="stylesheet" href="style/media-queries.css">
 </head>
@@ -16,29 +17,25 @@
                 <h1>Login</h1>
                 <p>Seje bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="form/login.php" method="post" autocomplete="on">
-                    
                         <div class="campo">
+                            <i class="material-icons"></i>
                             <label for="ilogin">Login</label>
                             <input type="email" name="email" id="ilogin" autocomplete="email" required placeholder="seu-email">
                         </div>
-                    
-                    
                         <div class="campo">
+                            <i class="material-icons"></i>
                             <label for="isenha">Senha</label>
                             <input type="password" name="senha" id="isenha" autocomplete="current-password" required placeholder="sua senha" minlength="4" maxlength="8">
                         </div>
-                    
-                    
                         <div>
-                            <input type="submit" value="Entrar">
-                            <a href="esqueci.html" class="botao">Esqueci a senha</a>
+                            <input class="entrat" type="submit" value="Entrar">
+                            <a href="esqueci.html" class="botao">
+                                Esqueci a senha <i class="material-icons"></i>
+                            </a>
                         </div>
-                    
                 </form>
             </div>
-
         </section>
     </main>
-    
 </body>
 </html>
