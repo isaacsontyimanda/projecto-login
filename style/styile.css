@@ -65,6 +65,7 @@ div#form > p {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
@@ -72,6 +73,7 @@ form > div.campo {
 
 form > div.campo2 {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
@@ -87,7 +89,7 @@ form > div.campo2 {
 div.campo > input {
     background-color: #6bf1ed;
     font-size: 1em;
-    width: calc(200% - 127.4%);
+    width: calc(100% - 62px);
     height: 100%;
     border-radius: 8px;
     padding: 10px;
@@ -96,10 +98,18 @@ div.campo > input {
 div.campo2 > input {
     background-color: #6bf1ed;
     font-size: 1em;
-    width: calc(200% - 126.3%);
+    width: calc(100% - 60px);
     height: 100%;
     border-radius: 8px;
     padding: 10px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+div.campo2 > input:focus-within {
+    background-color: white;
 }
 
 input[type=submit] {
@@ -135,4 +145,8 @@ a.botao {
 
 a.botao:hover {
     background-color: #71e9e5;
+}
+
+abbr {
+    text-decoration: none;
 }
